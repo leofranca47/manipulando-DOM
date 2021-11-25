@@ -3,7 +3,6 @@ function onSubmit(event) {
     console.log(name)
     console.log(document.getElementsByName('email')[0].value)
     console.log(document.getElementsByName('password')[0].value)
+    console.log(document.querySelector('input[name=sexo]:checked').value)
     return false
 }
-
-// todoleo conitnua na aula 3 do modulo 3
