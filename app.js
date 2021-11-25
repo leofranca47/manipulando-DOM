@@ -2,7 +2,7 @@
 
 // document.write('<h1>eu sou o Leo</h1>');
 
-setTimeout(function () {
+setTimeout(function() {
     // document.getElementById('test').innerText = 'sou um novo texto';
     // document.getElementById('id-test').innerHTML = '<h3>Oi eu sou Goku</h3>'
     // document.getElementById('id-test').innerHTML = '<p>Chalá rei chalá</p>'
@@ -31,7 +31,7 @@ setTimeout(function () {
 
 function footer() {
     var heigth = document.body.scrollHeight
-    // window.scrollTo(0, heigth)
+        // window.scrollTo(0, heigth)
     window.scrollTo({
         left: 0,
         top: heigth,
